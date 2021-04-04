@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/azurefundbserver/databases/todo",
+      "type": "mssql.azure",
+      "connectionId": "sqlserver",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
